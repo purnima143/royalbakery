@@ -1,0 +1,71 @@
+@font-face
+{
+	src:url(fonts/Roboto-Black.ttf);
+	font-family:VTHBlack;
+}
+
+@font-face
+{
+	src:url(fonts/Roboto-Regular.ttf);
+	font-family:VTHRegular;
+}
+
+@font-face
+{
+	src:url(fonts/Roboto-Bold.ttf);
+	font-family:VTHBold;
+}
+
+@font-face
+{
+	src:url(fonts/Roboto-Italic.ttf);
+	font-family:VTHItalic;
+}
+@font-face
+{
+	src:url(fonts/Roboto-BoldItalic.ttf);
+	font-family:VTHBoldItalic;
+}
+
+@font-face
+{
+	src:url(fonts/Roboto-Thin.ttf);
+	font-family:VTHThin;
+}
+
+@font-face
+{
+	src:url(fonts/Roboto-Light.ttf);
+	font-family:VTHLight;
+}
+
+@font-face
+{
+	src:url(fonts/Roboto-Medium.ttf);
+	font-family:VTHMedium;
+}
+
+@font-face
+{
+	src:url(fonts/Roboto-Condensed.ttf);
+	font-family:VTHCondensed;
+}
+
+@font-face
+{
+	src:url(fonts/AckiPreschool.ttf);
+	font-family:VTHSchool;
+}
+
+@font-face
+{
+	src:url(fonts/Roboto-LightItalic.ttf);
+	font-family:VTHLightItalic;
+}
+
+@font-face
+{
+	src:url(fonts/EuphoriaScript-Regular.ttf);
+	font-family:VTHStyle;
+}
+

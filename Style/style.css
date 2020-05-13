@@ -1,0 +1,550 @@
+@import url(font.css);
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  font-family: VTHRegular;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+for,
+table,
+ol,
+ul,
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cnt {
+  text-align: center;
+}
+.lft {
+  text-align: left;
+}
+.rgt {
+  text-align: right;
+}
+.jst {
+  text-align: justify;
+}
+
+.back {
+  color: #191919;
+}
+.white {
+  color: #ffffff;
+}
+.theme1 {
+  color: #f98c91;
+}
+
+.space5 {
+  height: 5px;
+  clear: both;
+}
+.space10 {
+  height: 10px;
+  clear: both;
+}
+.space20 {
+  height: 20px;
+  clear: both;
+}
+.space30 {
+  height: 30px;
+  clear: both;
+}
+.space50 {
+  height: 50px;
+  clear: both;
+}
+.space70 {
+  height: 70px;
+  clear: both;
+}
+.space100 {
+  height: 100px;
+  clear: both;
+}
+.space150 {
+  height: 150px;
+  clear: both;
+}
+
+/*****************/
+#pink_box {
+  height: 5px;
+  width: 1000px;
+  margin: auto;
+  background: #f98c91;
+}
+#header {
+  height: 500px;
+  width: 1000px;
+  margin: auto;
+  background-image: url(../Image/bg5.jpg);
+  background-size: 100%;
+}
+
+#trans_box {
+  padding: 20px 0px;
+  height: 60px;
+  width: 1000px;
+  background: rgba(0, 0, 0, 0.6);
+}
+#logo {
+  float: left;
+  height: 60px;
+  width: 242px;
+  margin: 0px 5px;
+  background-image: url(../Image/logo1.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+#logo img {
+  height: 60px;
+}
+
+#menu {
+  height: 14px;
+  width: 550px;
+  float: right;
+  margin: 0px 5px;
+  padding: 23px 0px;
+}
+#menu a {
+  color: white;
+  font-family: VTHBold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0px 15px;
+}
+#menu a:hover,
+a#current {
+  color: #f98c91;
+  border-bottom: 2px solid #f98c91;
+  padding-bottom: 5px;
+}
+
+#book {
+  padding-top: 20px;
+  height: 60px;
+  width: 150px;
+  float: right;
+  margin: 0px 5px;
+}
+.btn1 {
+  background: #f98c91;
+  color: white;
+  font-family: VTHMedium;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+
+.btn1:hover {
+  color: #f98c91;
+  background: white;
+}
+.logo_white {
+  height: 100px;
+  width: 100px;
+  background-image: url(../Image/logowhite.png);
+  background-size: 100%;
+  margin: auto;
+}
+
+.txt1 {
+  font-family: VTHBlack;
+  font-size: 40px;
+}
+
+.cont_1 {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding: 100px 0px;
+}
+.con_1_left {
+  height: 400px;
+  width: 400px;
+  float: left;
+  background-image: url(../Image/chef1.jpg);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.con_1_right {
+  height: 400px;
+  width: 400px;
+  float: right;
+  padding: 0px 25px;
+}
+
+div span {
+  margin-right: 5px;
+}
+
+.txt2 {
+  font-family: VTHBlack;
+  font-size: 40px;
+}
+.txt3 {
+  font-family: VTHMedium;
+  font-size: 40px;
+}
+.txt4 {
+  font-family: VTHStyle;
+  font-size: 40px;
+}
+.txt5 {
+  font-family: VTHBlack;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.para1 {
+  color: #6f6c6c;
+  font-family: VTHLight;
+  line-height: 20px;
+}
+
+#stat {
+  background-image: url("../Image/3461095.jpg");
+  background-size: 100%;
+  color: white;
+  height: 250px;
+  border: dotted 5px white;
+}
+.overlay {
+  width: 2000px;
+  height: 248px;
+  background-color: rgba(8, 8, 8, 0.733);
+  padding: 100px;
+}
+
+#stat .container {
+  padding: 20px 0px !important;
+}
+
+#stat .row .col img {
+  margin: 0px 39px;
+}
+.stat-content {
+  font-size: 29px;
+  font-family: VTHStyle;
+  text-align: center;
+}
+#dishlist .row .col-md-6 .row {
+  padding: 10px 10px;
+  background-color: rgba(240, 240, 240, 0.932);
+}
+#dishlist .row .col-md-6 .row:hover {
+  box-shadow: grey 3px 3px 7px 4px;
+}
+#dishlist .row {
+  margin: auto;
+  margin-bottom: 10px;
+}
+#cakes .cakesimg {
+  width: 200px;
+  margin: auto;
+  height: 175px;
+}
+#cakes {
+}
+#team {
+  background-image: url("../Image/249799-P3VUVW-479.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: dotted #f98c91 6px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  height: 450px;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: 52px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 248, 248, 0.8);
+} /*
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 9.5s;
+  animation-name: fade;
+  animation-duration: 9.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}*/
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #f98c91;
+}
+.chefimg {
+  margin-left: 10%;
+  position: relative;
+  top: 25px;
+  height: 400px;
+}
+.cheficon {
+  list-style: none;
+}
+.cheficon .fa {
+  color: white;
+  font-size: 28px;
+  float: left;
+  margin: 10px;
+}
+.cheficon .fa:hover {
+  color: #f98c91;
+}
+
+#contact {
+  background-image: url("../Image/slice.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form-group {
+  width: 250px;
+  margin: 5px;
+  float: left;
+}
+.form-control:focus {
+  border-color: pink !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+::placeholder {
+  color: #f98c91 !important;
+}
+
+#flavours {
+  width: 250px;
+}
+#cakefest {
+  background-image: url("../Image/mike-meeks-zk-fclJdGas-unsplash.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: dotted #f98c91 6px;
+}
+#cakefest .boxfest {
+  background-color: white;
+  height: 400px;
+  width: 700px;
+  margin: auto;
+  border-style: double;
+  border-width: 5px;
+  border-color: #f98c91;
+}
+
+.boxfest .content {
+  margin: auto;
+  width: 640px;
+  height: 340px;
+  position: relative;
+  top: 30px;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 20px;
+  border-color: goldenrod;
+}
+#cakefooter {
+  background-color: #f86970;
+  height: 140px;
+  width: 1507px;
+  position: relative;
+  bottom: -78px;
+}
+
+#cakefooter .cakelist .col-md-2{
+  margin-left:30px!important;
+  padding: 20px;
+
+}
+.festcakes{
+  margin-left:42px; color: white;
+  background-color: rgb(58, 57, 57);
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+#testinomial{
+  height: 700px;
+}
+
+
+
+#testimonial .col-md-4
+{
+    margin:40px auto;
+}
+
+.profile {
+    padding:70px 10px 10px;
+    background-color: #efefef;
+}
+.profile img
+{
+    top:-60px;
+    position: absolute;
+    left:calc(50% - 60px);
+    border:10px solid #fff;
+    border-radius: 50%;
+    height: 130px;
+    width: 100px;
+background: 100%;
+}
+.profile h3
+{
+    font-size: 20px;
+    margin-top:15px;
+    color:#f86970;
+    
+}
+
+
+blockquote {
+    font-size: 16px;
+line-height: 30px;
+
+}
+blockquote::before
+{
+    content:'\201C';
+    font-size: 40px;
+    color:#f86970;
+    position:relative;
+    line-height:20px;
+    bottom:-15px;
+    right:5px;
+}
+blockquote::after
+{
+    content:'\201D';
+    font-size: 50px;
+    color:#f86970;
+    position:relative;
+    line-height:10px;
+    bottom:-15px;
+    left:5px;
+}
+
+
+#footer .search-cont{
+  width:250px;
+  color: white;
+  margin:15px;
+  padding: 5px;
+  position: relative;
+  top: 25px;
+float: left;
+}
+
+#myInput {
+  float: left;
+  background-image: url("../Image/search.png");
+  background-repeat: no-repeat;
+  background-position: 10px 16px; /* Position the search icon */
+
+  width: 350px; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  position: relative;
+  top: 30px;
+  margin-left: 20px;
+
+}
+
+
+#footer {
+  height: 400px;
+  background-color: black;
+  padding: 10px;
+}
+#footer .search {
+  height: 100px;
+  background-color:#f86970;
+  width: 900px;
+  margin: auto;
+  position: relative;
+  top: -30px;
+}
+
+#footer .fa:hover{
+  color:white;
+}
