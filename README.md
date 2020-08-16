@@ -1,6 +1,6 @@
 # Royal Bakery-Website :cake:
 Website which is build by using HTML,CSS and Javascript.
-[ Click here ](https://pages.github.com/) to check the site.
+[ Click here ](https://purnima143.github.io/royalbakery/) to check the site.
 
 
 
